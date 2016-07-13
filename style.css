@@ -1,0 +1,6 @@
+.jumbotron {
+    background-image: url('./img/jumbotron-bg.png');
+    background-repeat: repeat;
+    font-family: "consolas", monospace;
+    transition: 1s all;
+}
