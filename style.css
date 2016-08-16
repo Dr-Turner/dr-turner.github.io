@@ -1,6 +1,21 @@
-.jumbotron {
-    background-image: url('./img/jumbotron-bg.png');
+body {
+    background-image: url('./img/stardust.png');
     background-repeat: repeat;
+    color: #CCC;
+}
+
+.jumbotron {
+    background: none;
     font-family: "consolas", monospace;
     transition: 1s all;
+    text-align: center;
+}
+
+.project {
+    background: rgba(80, 80, 80, 0.8);
+    border-radius: 10px; 
+    width: 95%;
+    margin: 2.5%;
+    padding: 2.5%;
+    padding-top: 1%;
 }
