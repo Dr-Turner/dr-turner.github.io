@@ -4,11 +4,25 @@ body {
     color: #CCC;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
 .jumbotron {
     background: none;
     font-family: "consolas", monospace;
     transition: 1s all;
     text-align: center;
+}
+
+.jumbotron h1 {
+    font-size: 5em;
 }
 
 .project {
@@ -18,4 +32,33 @@ body {
     margin: 2.5%;
     padding: 2.5%;
     padding-top: 1%;
+    transition: 1s background;
+}
+
+
+.project:hover {
+    background: rgba(175, 175, 175, 0.8);
+    color: #333;
+    transition: 1s background;
+}
+
+
+
+@media (max-width: 768px) {
+    .jumbotron h1 {
+        font-size: 4em;
+        /*color: red;     /*testing*/*/
+    }
+}
+
+@media (max-width: 480px) {
+    .jumbotron h1 {
+        font-size: 3em;
+        /*color: blue;     /*testing*/*/
+    }
+
+    .project {
+        text-align: center;
+    }
+
 }
